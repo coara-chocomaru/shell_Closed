@@ -6,6 +6,6 @@
 - `adb shell` → 即「shell Closed」表示＋終了  
 - `adb shell -c "コマンド"` / `adb shell "コマンド"` → すべてブロック  
 - init.rc・アプリ内シェル・recoveryなどは**完全に正常動作**
-- recoveryに組み込めばusbデバッグからのshの利用を封じることが出来ます
+- recovery内のshを差し替えればadbからのshの利用を封じることも出来ます
 
 ---
