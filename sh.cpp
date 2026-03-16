@@ -23,7 +23,7 @@ int main(int argc, char **argv) {
             }
         }
     }
-    execv("/system/bin/xh", argv);
+    execv("/vendor/bin/sh", argv);
     perror("sh exec failed");
     exit(1);
 }
